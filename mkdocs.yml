@@ -1,0 +1,12 @@
+site_name: 'demo-docs'
+site_description: 'demo docs'
+
+plugins:
+  - techdocs-core
+
+markdown_extensions:
+  - pymdownx.snippets:
+      check_paths: true
+
+nav:
+  - Home: index.md
