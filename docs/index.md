@@ -14,6 +14,8 @@ sequenceDiagram
     Alice->John: Yes... John, how are you?
 ```
 
+Some text between diagrams
+
 ```mermaid
 sequenceDiagram
     Alice ->> Bob: Hello Bob, how are you?
