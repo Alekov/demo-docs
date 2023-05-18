@@ -2,6 +2,7 @@
 
 ![Some picture](test_picture.jpg "Text to show on mouseover")
 
+```mermaid
 sequenceDiagram
     Alice ->> Bob: Hello Bob, how are you?
     Bob-->>John: How about you John?
@@ -11,3 +12,4 @@ sequenceDiagram
 
     Bob-->Alice: Checking with John...
     Alice->John: Yes... John, how are you?
+```
