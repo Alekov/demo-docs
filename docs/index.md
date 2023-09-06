@@ -63,7 +63,12 @@ sequenceDiagram
 C4Context
   title System Context diagram for Internet Banking System
   Enterprise_Boundary(b0, "BankBoundary0") {
-    
+    Person(customerA, "Banking Customer A", "A customer of the bank, with personal bank accounts.")
+    Person(customerB, "Banking Customer B")
+    Person_Ext(customerC, "Banking Customer C", "desc")
+
+    Person(customerD, "Banking Customer D", "A customer of the bank, <br/> with personal bank accounts.")
+
     System(SystemAA, "Internet Banking System", "Allows customers to view information about their bank accounts, and make payments.")
 
     Enterprise_Boundary(b1, "BankBoundary") {
