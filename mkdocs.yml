@@ -5,8 +5,15 @@ plugins:
   - techdocs-core
 
 markdown_extensions:
+markdown_extensions:
   - pymdownx.snippets:
       check_paths: true
+  - pymdownx.extra:
+      pymdownx.superfences:
+        custom_fences:
+          - name: mermaid
+            class: mermaid
+            format: !!python/name:pymdownx.superfences.fence_code_format
 
 nav:
   - Home: index.md
