@@ -5,7 +5,6 @@ plugins:
   - techdocs-core
 
 markdown_extensions:
-markdown_extensions:
   - pymdownx.snippets:
       check_paths: true
   - pymdownx.extra:
